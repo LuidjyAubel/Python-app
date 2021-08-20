@@ -9,7 +9,7 @@ pygame.display.set_caption('app python')
 
 #Chargement et collage du fond
 fond = pygame.image.load("background.png").convert()
-fenetre.blit(fond, (0,0))
+fenetre.blit(fond, (320,240))
 
 #Chargement et collage du personnage
 perso = pygame.image.load("xwing.png").convert_alpha()
